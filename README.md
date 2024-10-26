@@ -15,11 +15,6 @@ Car damage detection using Mask Regional Convolution Neural Network
   <img src="https://user-images.githubusercontent.com/50113394/122676009-9dd55d80-d1f9-11eb-99aa-7525630aa98b.png" />
 </p>
 
-# Annotated File
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676016-a168e480-d1f9-11eb-97f4-dbde52f7821f.png" />
-</p>
 
 # Stages
 
@@ -30,24 +25,19 @@ Car damage detection using Mask Regional Convolution Neural Network
 # Hyper Parameter Values
 - You can use the following hyper parameter values to train your model. I found these values to give the best results.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676039-bd6c8600-d1f9-11eb-88df-3e730925708a.png" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676047-c78e8480-d1f9-11eb-8d4e-72e526cd1719.png" />
-</p>
-
-# Model Output
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676087-fa387d00-d1f9-11eb-9bd1-bf52dfc40932.png" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676106-13412e00-d1fa-11eb-852c-b96c5d0e57c1.png" />
-</p>
-
+- **LEARNING_RATE**: 0.001
+- **LEARNING_MOMENTUM**: 0.9
+- **WEIGHT_DECAY**: 0.0001
+- **DETECTION_MIN_CONFIDENCE**: 0.8
+- **STEPS_PER_EPOCH**: 100
+- **NUM_CLASSES**: 5
+- **MASK_POOL_SIZE**: 14
+- **POOL_SIZE**: 7
+- **VALIDATION_STEPS**: 50
+- **RPN_ANCHOR_SCALES**: (16, 32, 64, 128, 256)
+- **RPN_ANCHOR_RATIOS**: [0.5, 1, 1.5]
+- **IMAGE_MIN_DIM**: 512
+  
 # Deployment
 
 <p align="center">
@@ -58,17 +48,6 @@ Car damage detection using Mask Regional Convolution Neural Network
   <img src="https://user-images.githubusercontent.com/50113394/122676093-04f31200-d1fa-11eb-853e-202102a1b8e7.png" />
 </p>
 
-# Damage Localization
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676130-27852b00-d1fa-11eb-8e92-2dfdcabd6457.png" />
-</p>
-
-# Training loss vs Validation loss
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676186-82b71d80-d1fa-11eb-88cc-708786320ba3.png" />
-</p>
 
 # Steps to Implement the Project
 1) Put your_trained_weights.m5 file in the model directory.
