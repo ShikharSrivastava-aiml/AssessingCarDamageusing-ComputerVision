@@ -5,12 +5,6 @@ Car damage detection using Mask Regional Convolution Neural Network
 - In this project I have developed a software that was able to detect four types of vehicle damages namely, Scratch, Dent, Dislocation and Shatter. Also I have provided a tentative repair cost for the type of damage detected. I have developed a website using Flask framework. Front end of the website is built using Bootstrap software.
 - Automation is the next step in the automobile industry, and a software which is able to detect and localize damage in the car has various real world applications. In the software I have used Mask Regional Convolutional Network which is at the pinnacle of image detection techniques. Due to the complexity of the task I have used transfer learning to develop the software in three stages. Each stage added a new layer of complexity to the task, this helped the software prioritize learning the current task. I had also used Image Augmentation, which helped the model to not over fit the training data.
 
-# Dataset
-- Stage 1: https://www.kaggle.com/eashankaushik/car-damage-detectionstage1
-- Stage 2: https://www.kaggle.com/eashankaushik/car-damage-detectionstage2
-- Stage 3: https://www.kaggle.com/eashankaushik/car-damage-detection
-
-
 # Image Annotation
 
 <p align="center">
