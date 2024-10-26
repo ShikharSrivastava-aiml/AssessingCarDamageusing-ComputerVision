@@ -63,5 +63,5 @@ If you don’t want to use cost assessment functionality, just change cost_for_d
 
 # Reference
 
-[1] matterport/Mask_RCNN. (2021). Retrieved 1 January 2021, from https://github.com/matterport/Mask_RCNN
+[1] matterport/Mask_RCNN. (2021). Retrieved 26 October 2024, from https://github.com/matterport/Mask_RCNN
 
