@@ -1,4 +1,4 @@
-# Assessing Car Damage Using Mask R-CNN
+# Assessing Car Damage Using Deep Learning Techniques
 Car damage detection using Mask Regional Convolution Neural Network
 
 # Project Introduction
