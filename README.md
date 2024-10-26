@@ -1,4 +1,4 @@
-# car-damage-detecting-MaskRCNN
+# Assessing Car Damage Using Mask R-CNN
 Car damage detection using Mask Regional Convolution Neural Network
 
 # Project Introduction
