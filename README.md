@@ -41,10 +41,6 @@ Car damage detection using Mask Regional Convolution Neural Network
 # Deployment
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/50113394/122676067-e12fcc00-d1f9-11eb-8ec7-4e704a47f83d.png" />
-</p>
-
-<p align="center">
   <img src="https://user-images.githubusercontent.com/50113394/122676093-04f31200-d1fa-11eb-853e-202102a1b8e7.png" />
 </p>
 
